@@ -1,0 +1,9 @@
+In the provided code using Flask-SQLAlchemy and SQLite, the schema for the File model is defined as a class. 
+This class is a representation of the table structure in your SQLite database. 
+
+
+id: An auto-incrementing integer field used as the primary key.
+file_name: File Name
+created_at: Timestamp when the file was created.
+size: Size of the file in bytes.
+file_type: Type of File
